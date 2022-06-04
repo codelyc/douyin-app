@@ -73,7 +73,7 @@ func VideoFavoriteHandler(c *gin.Context) {
  	1. 从favorite表中找出 userid= ?? 符合所有的favorite记录存储在favoriteList中
 	2. 遍历favoriteList得到videoList
 */
-func VedioFavoriteListHandler(c *gin.Context) {
+func VideoFavoriteListHandler(c *gin.Context) {
 	var (
 		userId   int64
 		err      error
